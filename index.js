@@ -10,7 +10,7 @@ const dialogflowClient = new dialogflow.SessionsClient();
 const knowbase = new dialogflow.KnowledgeBasesClient();
 const knowledgeBasePath = knowbase.knowledgeBasePath(
   process.env.PROJECT_ID,
-  "OTQxNTU2MDA3MjMyMDI1Mzk1Mg"
+  "ODM1Mzk3NzE5NzY1NjAxNDg0OA"
 );
 
 
