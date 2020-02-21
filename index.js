@@ -33,9 +33,8 @@ discordClient.on('message', m => {
     return m.channel.send(process.env.DISCORD_HELP_MESSAGE);
   }
 
-  var date = new Date();
   const dialogflowRequest = {
-    session: dialogflowClient.sessionPath(process.env.PROJECT_ID, Math.round(date.getTime()/10000).toString()),
+    session: dialogflowClient.sessionPath(process.env.PROJECT_ID, "discordbot"),
     queryInput: {
       text: {
         text: message,
