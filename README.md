@@ -1,4 +1,4 @@
-# faq-chatbot
+# Unofficial FAQ Chatbot
 
 ## About
 
